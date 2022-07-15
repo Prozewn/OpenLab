@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+
+:root{
+    --background_clr: #000814;
+    --fristlevel_background_clr: #001d3d;
+    --secondlevel_background_clr: #003566;
+    --text_color: #edf6f9;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+    background-color: #000814;
+    color: var(--text_color);
+}
+.logo-bar{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    font-size: 64px;
+    font-family: Koulen;
+}
+
+.nav-bar{
+    background-color: var(--fristlevel_background_clr);
+}
+
+.nav-bar li{
+    list-style: none;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: var(--text_color);
+}
